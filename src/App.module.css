@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(250, 250,250);
+  background-color: rgb(209, 209, 209);
 }
 
 .container {
@@ -13,12 +13,14 @@ body {
   margin-top: 50px;
 }
 
+
 @media only screen and (max-width: 770px) {
   .container {
     margin: 0 10%;
   }
 
   .image {
-    width: 100%;
+    width: 10%;
+    height: 10%;
   }
 }

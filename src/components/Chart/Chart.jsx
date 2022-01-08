@@ -22,7 +22,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     confirmed ? (
       <Bar
         data={{
-          labels: ['Infected', 'Recovered', 'Deaths'],
+          labels: ['Infected', 'Deaths'],
           datasets: [
             {
               label: 'People',
@@ -55,13 +55,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
             borderColor: 'red',
             backgroundColor: 'rgba(255, 0, 0, 0.5)',
             fill: true,
-          },  {
-            data: dailyData.map((data) => data.recovered),
-            label: 'Recovered',
-            borderColor: 'green',
-            backgroundColor: 'rgba(0, 255, 0, 0.5)',
-            fill: true,
-          },
+          },  
           ],
         }}
       />
