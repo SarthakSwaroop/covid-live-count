@@ -1,6 +1,6 @@
 {
-  "name": "project_corona_trackerr",
-  "homepage": "https://sarthakswaroop.github.io/project_corona_trackerr",
+  "name": "covid-live-count",
+  "homepage": "https://sarthakswaroop.github.io/covid-live-count/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
